@@ -1,0 +1,166 @@
+body {
+	font-family: Arial, Sans-Serif;
+	margin: 0;
+}
+
+/* barre de navigation */
+
+.conteneur {
+
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none;
+	margin: 20px 10px 0 0;
+	text-align: right;
+	
+}
+
+
+li {
+
+	display: inline;
+	padding: 10px;
+	font-size: 0.9em;
+
+
+}
+
+nav a {
+	color: rgba(0,0,0,0.87);
+	text-decoration: none;
+}
+
+
+a:hover {
+
+	opacity: .85;
+	text-decoration: underline;
+
+}
+
+a:visited {
+	text-decoration: none;
+	color: rgba(0,0,0,0.87);
+}
+
+/* bloc central */
+
+#corps_page {
+
+	margin:auto;
+	margin-top:100px;
+	width: 560px;
+	text-align: center;
+/*	visibility: hidden;*/
+	display: none;
+}
+
+#button_centre {
+	width: 100%;
+	border: solid 1px #66CDAA;
+    padding: 50px 0px;
+    padding-right: 20px;
+    text-align: center;
+    background-color: #F9D4F2;
+    margin-top: 20px;
+ }   
+
+.search {
+
+	text-align: left;
+	color: black;
+	width: 560px;
+	height: 40px;
+	border: 1px solid #EAEAEA;
+	margin-top: 20px;
+	box-shadow: 0px 2px 5px #E6E6E6;
+	font-size: 1em;
+	text-indent: 10px;
+	background-image: url(img/micro.png);
+	background-position: 540px;
+	background-repeat: no-repeat;
+}
+
+.search:hover, .search:focus {
+
+	box-shadow: 0px 4px 4px #E6E6E6;
+	outline: none;
+}
+
+.boutons {
+
+	display: flex;
+	justify-content: center;
+	margin: 30px;
+
+
+}
+
+.button {
+
+	background-color: #F4F4F4;
+	color: #727272;
+	font-size: 0.8em;
+	font-weight: bold;
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+	margin-right: 5px;
+	margin-left: 5px;
+	align-items: center;
+	border-radius: 2px;
+
+
+}
+
+.button:hover {
+
+	border: 1px solid #727272;
+	color: black;
+}
+
+/* Footer */
+
+footer{
+	background-color: #F2F2F2;
+	border: 1px solid #EAEAEA;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.france{
+	color: #727272;
+	margin-left: 20px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.bas_depage{
+	display: flex;
+	justify-content: space-between;
+}
+
+footer ul{
+	padding-left: 0;
+}
+
+.PEA {
+	margin-left: 10px;
+
+}
+
+footer a{
+	color: #727272;
+}
+
+footer a:hover{
+	color: #727272;
+}
+
+.hr{
+color: #e2dcdc;
+
+}
